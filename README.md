@@ -9,7 +9,17 @@
 ## ROS package: my_actions
 ### This package has methods of task performing that can be commanded from a topic such as the my_topics package that will run once it recieves data or other information. In the case of this package this has the function of a timer. This is useful when used in conjuction with other packages that act an action.
 
-## Getting started
+## Requirements:
+### Using these packages was done in a virtualbox machine with ubuntu, so those are general requirements in order to run these packages. The ubuntu version 18.04 specifically was used. The ROS program is also required to be able to use the packages. 
 
-## Usage
+## Installation and Configuration:
+### Forking these packages would be prefered.
+
+## Getting started:
+### As with most ROS packages you will need to use the command 'roscore' before opening a few other tabs in the CMD window if you want to work locally. Working locally is the prefered method as that is the way I worked on these packages, but working on github shouldn't be too different as long as you are working in the CMD window. 
+### Within each package there will be seperete packages for each operation, such as the message_subscriber and the message_publisher packages. Each package needs to be used in a seperate window of the CMD and are launched with the command 'rosrun'
+
+## Usage:
+rosrun
+source
 
