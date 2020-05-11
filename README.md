@@ -20,6 +20,9 @@
 ### Within each package there will be seperete packages for each operation, such as the message_subscriber and the message_publisher packages. Each package needs to be used in a seperate window of the CMD and are launched with the command 'rosrun'
 
 ## Usage:
-rosrun
-source
+### Commands
+#### - roscore
+#### - rosrun
+#### - source
+#### 
 
